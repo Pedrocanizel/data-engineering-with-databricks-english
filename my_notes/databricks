@@ -15,3 +15,8 @@ SHOW TABLES
 SHOW DATABASES 
 
 USE database_name
+
+ALTER TABLE table_name RENAME TO novo_nome
+
+ALTER TABLE table_name ADD columns (coluna1 string, coluna2 timestamp)
+
