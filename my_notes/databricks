@@ -1,1 +1,4 @@
-/FileStore/table/nome_do_arquivo.csv # Local padrão onde o databricks guarda os arquivos dentro da azure, ele linka com o blob.
+/FileStore/tables/nome_do_arquivo.csv # Local padrão onde o databricks guarda os arquivos dentro da azure, ele linka com o blob.
+
+CREATE TABLE nome_da_tabela USING CSV
+OPTIONS (path "/FileStore/tables/nome_do_arquivo.csv", header="true", inferSchema="true") ;
