@@ -1,0 +1,1 @@
+/FileStore/table/nome_do_arquivo.csv # Local padrão onde o databricks guarda os arquivos dentro da azure, ele linka com o blob.
