@@ -24,3 +24,7 @@ ALTER TABLE table_name ADD columns (coluna1 string, coluna2 timestamp)
 ALTER TABLE table_name ALTER COLUMN coluna1 COMMENT "comentário":
 
 SHOW PARTITIONS table_name
+
+DROP DATABASE database_name
+
+DROP TABLE tablename
