@@ -13,3 +13,5 @@ DESCRIBE TABLE EXTENDED table_name # Descrever detalhes da tabela
 SHOW TABLES
 
 SHOW DATABASES 
+
+USE database_name
