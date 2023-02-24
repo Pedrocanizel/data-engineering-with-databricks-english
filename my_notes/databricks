@@ -7,3 +7,5 @@ SELECT * FROM table_name limit 2;
 
 CREATE TABLE nome_da_tabela (coluna_1 string, coluna_2 int, coluna_3 int) 
 USING CSV OPTIONS (path "/FileStore/tables/nome_do_arquivo.csv", header="false", inferSchema="false") ;
+
+DESCRIBE TABLE EXTENDED table_name # Descrever detalhes da tabela
